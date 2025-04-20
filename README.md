@@ -4,6 +4,7 @@
 (0 to ____)
 
 This is my competitive programming training repository. 
+
 Here I'll show my progress, code and explanations in this place 
 
 🧠 First goal: Be green in Codeforces
