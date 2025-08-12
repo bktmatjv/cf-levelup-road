@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+#define endl "\n"
+#define sz(s) s.size()
+#define fori(_, n) for(int i =_; i<n; i++)
+#define forj(_, n) for(int j =_; j<n; j++)
+#define all(arr) arr.begin(), arr.end()
+
+#define dbg(x) cerr << #x << " = " << (x) << endl
+#define dbgv(v) cerr << #v << " = ["; for (auto _ : v) cerr << _ << " "; cerr << "]" << endl;
+#define dbgvp(v) cerr << #v << " = ["; for (auto [_f, _s] : v) cerr << "(" << _f << ", " << _s << ") "; cerr << "]" << endl;
+
+#define maxn 200000+1
+#define MOD 1000000007LL
+
+ll dp[maxn];
+
+void solve() {
+    
+
+
+}
+
+int main() {
+
+    int t=1; //cin>>t;
+    while(t--) solve();
+}
