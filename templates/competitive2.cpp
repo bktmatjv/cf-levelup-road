@@ -8,6 +8,7 @@ typedef long long ll;
 #define fori(_, n) for(int i =_; i<n; i++)
 #define forj(_, n) for(int j =_; j<n; j++)
 #define all(arr) arr.begin(), arr.end()
+#define pb push_back
 
 #define dbg(x) cerr << #x << " = " << (x) << endl
 #define dbgv(v) cerr << #v << " = ["; for (auto _ : v) cerr << _ << " "; cerr << "]" << endl;
@@ -25,7 +26,9 @@ void solve() {
 }
 
 int main() {
-
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
     int t=1; //cin>>t;
     while(t--) solve();
 }
