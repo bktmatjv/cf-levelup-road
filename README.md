@@ -5,7 +5,7 @@
 
 This is my competitive programming training repository. 
 
-Here I'll show my progress, code and explanations in this place 
+Here I'll show my progress, code and explanations :)))
 
 Start: April 20, 2025. 
 
