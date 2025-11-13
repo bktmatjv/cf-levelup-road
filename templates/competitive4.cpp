@@ -21,6 +21,7 @@ using pll = pair<ll,ll>;
 using vi = vector<int>;
 using vll = vector<ll>;
 using vii = vector<pii>;
+using mii = map<int,int>
 
 #define forn(i, n) for (int i = 0; i < int(n); i++)
 #define for1(i, n) for (int i = 1; i <= int(n); i++)
@@ -28,6 +29,7 @@ using vii = vector<pii>;
 #define rof(i, n) for (int i = int(n)-1; i >= 0; i--)
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
+#define sz(x) ll(x.size())
 #define pb push_back
 #define eb emplace_back
 #define fi first
@@ -40,20 +42,13 @@ const ll LINF = 1e18;
 const int MOD = 1e9+7;
 const double EPS = 1e-9;
 
-#ifdef LOCAL
-    #define dbg(x) cerr << #x << " = " << (x) << endl
-    #define dbgv(v) cerr << #v << " = ["; for (auto _ : v) cerr << _ << " "; cerr << "]" << endl;
-    #define dbgp(v) cerr << #v << " = ["; for (auto [_f, _s] : v) cerr << "(" << _f << "," << _s << ") "; cerr << "]" << endl;
-    #define fastio() 
-    freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
-#else
-    #define dbg(x)
-    #define dbgv(v)
-    #define dbgp(v)
-    #define fastio() ios::sync_with_stdio(false); cin.tie(nullptr);
-#endif
+#define dbg(x) cerr << #x << " = " << (x) << endl
+#define dbgv(v) cerr << #v << " = ["; for (auto _ : v) cerr << _ << " "; cerr << "]" << endl;
+#define dbgp(v) cerr << #v << " = ["; for (auto [_f, _s] : v) cerr << "(" << _f << "," << _s << ") "; cerr << "]" << endl;
+#define fastio() ios::sync_with_stdio(false); cin.tie(nullptr);
 
-
+/*
+// for math
 ll gcdll(ll a, ll b) { return b ? gcdll(b, a % b) : a; }
 ll lcmll(ll a, ll b) { return a / gcdll(a, b) * b; }
 
@@ -68,7 +63,7 @@ ll mod_pow(ll a, ll b, ll m = MOD) {
 }
 
 ll mod_inv(ll a, ll m = MOD) { return mod_pow(a, m - 2, m); }
-
+*/
 
 void solve() {
     // solve here    
@@ -78,7 +73,7 @@ void solve() {
 
 int main() {
     fastio();
-    int t=1; // cin >> t;
+    int t=1; // cin >> t; // valid testcases
     while (t--) solve();
     return 0;
 }
