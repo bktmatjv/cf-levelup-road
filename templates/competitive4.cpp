@@ -1,50 +1,51 @@
-/*
- * ICPC Template
- * Author: Matías Del Castillo Mendoza
- * University: UPC
- * Language: C++17
- * ---------------------------------------------------------
- * Description:
- *  Base template for competitive programming
- * ---------------------------------------------------------
- */
-
 #include <bits/stdc++.h>
 using namespace std;
 
-/*----------------------------------------------------------*/
-/*                         MACROS                           */
-/*----------------------------------------------------------*/
-using ll = long long;
-using pii = pair<int,int>;
-using pll = pair<ll,ll>;
-using vi = vector<int>;
-using vll = vector<ll>;
-using vii = vector<pii>;
-using mii = map<int,int>
+/*
+         Æ          Æ Æ           
+     ÆÆÆÆ            Æ ÆÆ         
+    ÆÆ ÆÆ            ÆÆ ÆÆ        
+   ÆÆ ÆÆ              ÆÆÆÆ        
+   ÆÆÆÆÆ              ÆÆ ÆÆ       
+  ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ      
+  ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ      
+   ÆÆÆ ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ  ÆÆÆ       
+     ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ         
+   ÆÆÆ   ÆÆ ÆÆÆÆÆÆ ÆÆ   ÆÆÆ       
+ ÆÆÆ    ÆÆÆ ÆÆÆÆÆ  ÆÆ     ÆÆÆ     
+ ÆÆ     ÆÆÆ  ÆÆÆÆ  ÆÆ     ÆÆÆ     
+ ÆÆÆ     ÆÆ  ÆÆÆ   ÆÆ     ÆÆÆ     
+ ÆÆÆ     ÆÆ        ÆÆ     ÆÆ      
+  ÆÆ     ÆÆ        ÆÆ     ÆÆ      
+   Æ     ÆÆ       ÆÆÆ    ÆÆ       
+   ÆÆ     ÆÆ      ÆÆ     Æ        
+    ÆÆ    ÆÆ      Æ     Æ         
+           ÆÆ    ÆÆ               
+            Æ    Æ                
 
-#define forn(i, n) for (int i = 0; i < int(n); i++)
-#define for1(i, n) for (int i = 1; i <= int(n); i++)
-#define fore(i, a, b) for (int i = (a); i <= (b); i++)
-#define rof(i, n) for (int i = int(n)-1; i >= 0; i--)
-#define all(x) (x).begin(), (x).end()
-#define rall(x) (x).rbegin(), (x).rend()
-#define sz(x) ll(x.size())
+    spiterman :v
+    by yo :v (ascii art xd)
+*/
+
+using ll = long long;
+using vll = vector<long long>; 
+using vi = vector<int>;
+using mii = map<int,int>;
+
+#define endl "\n"
+#define sz(s) int(s.size())
+#define fori(_, n) for(int i =_; i<n; i++)
+#define forj(_, n) for(int j =_; j<n; j++)
+#define all(s) s.begin(), s.end()
+#define rall(s) s.rbegin(), s.rend()
 #define pb push_back
-#define eb emplace_back
 #define fi first
 #define se second
-#define mp make_pair
-#define endl '\n'
-
-const int INF = 1e9;
-const ll LINF = 1e18;
-const int MOD = 1e9+7;
-const double EPS = 1e-9;
+#define eb emplace_back
 
 #define dbg(x) cerr << #x << " = " << (x) << endl
 #define dbgv(v) cerr << #v << " = ["; for (auto _ : v) cerr << _ << " "; cerr << "]" << endl;
-#define dbgp(v) cerr << #v << " = ["; for (auto [_f, _s] : v) cerr << "(" << _f << "," << _s << ") "; cerr << "]" << endl;
+#define dbgvp(v) cerr << #v << " = ["; for (auto [_f, _s] : v) cerr << "(" << _f << ", " << _s << ") "; cerr << "]" << endl;
 #define fastio() ios::sync_with_stdio(false); cin.tie(nullptr);
 
 /*
@@ -65,15 +66,16 @@ ll mod_pow(ll a, ll b, ll m = MOD) {
 ll mod_inv(ll a, ll m = MOD) { return mod_pow(a, m - 2, m); }
 */
 
-void solve() {
-    // solve here    
+
+void solve() {  
 
 
 }
 
+
 int main() {
     fastio();
-    int t=1; // cin >> t; // valid testcases
+    int t=1;  cin >> t;
     while (t--) solve();
     return 0;
 }
